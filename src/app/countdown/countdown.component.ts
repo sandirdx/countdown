@@ -74,8 +74,17 @@ export class CountdownComponent implements OnInit, OnDestroy {
 
     this.launchDetails = localStorage.getItem('launchDetails');
     this.launchDetails = JSON.parse(this.launchDetails);
-    this.dDay = new Date(this.launchDetails.launchDate);
-    this.launchName = this.launchDetails.launchName;
+    console.log(this.launchDetails)
+    if (this.launchDetails.launchDate) {
+      this.dDay = new Date(this.launchDetails.launchDate);
+    } else {
+      this.dDay = new Date(Date.now() + ( 3600 * 1000 * 24));
+    }
+    if (this.launchDetails.launchName) {
+     this.launchName = this.launchDetails.launchName;
+    } else {
+      this.launchName = `We're launching soon`;
+    }
   }
 
   ngOnDestroy() {
