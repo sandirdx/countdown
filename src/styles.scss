@@ -1,0 +1,20 @@
+
+@font-face {
+  font-family: "Red Hat Display";
+  src: url(./assets/google_fonts/redhat/RedHatDisplay-Black.ttf) format("truetype");
+}
+* {
+  box-sizing: border-box;
+  font-family: 'Red Hat Display';
+  letter-spacing: 5px;
+}
+
+body {
+    margin: 0 auto;
+    margin: 0;
+  }
+
+footer {
+  position: absolute;
+  bottom: 40px;
+}

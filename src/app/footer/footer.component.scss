@@ -1,0 +1,34 @@
+.fb-ic:hover{
+    color: red;
+}
+
+.icon {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+  }
+  .icon-fb {
+    background-image: url(../../assets/images/icon-facebook.svg);
+  }
+  .icon-fb:hover,
+  .icon-fb:focus {
+    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(318deg) brightness(104%) contrast(97%);
+  }
+
+  .icon-p {
+    background-image: url(../../assets/images/icon-pinterest.svg);
+  }
+  .icon-p:hover,
+  .icon-p:focus {
+    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(318deg) brightness(104%) contrast(97%);
+  }
+
+  .icon-ins {
+    background-image: url(../../assets/images/icon-instagram.svg);
+  }
+  .icon-ins:hover,
+  .icon-ins:focus {
+    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(318deg) brightness(104%) contrast(97%);
+  }
+  

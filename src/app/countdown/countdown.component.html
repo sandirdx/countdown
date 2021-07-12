@@ -1,0 +1,22 @@
+<div class="mainStyle"  f><br/>
+  <h3 class="toUpper"  fxLayoutAlign="center center">{{ launchName }}</h3>
+
+  <div fxLayout="row" fxLayoutAlign="center center" class='timeBlock' fxLayoutGap="20px">
+    <div class="time">
+      <span id="days" class="runDiv"><span class="run"> {{ daysToDday }}</span> </span>
+      <span class="varient" fxLayoutAlign="center center">DAYS</span>
+    </div>
+    <div class="time">
+      <span id="hours" class="runDiv"><span class="run"> {{ hoursToDday }}</span> </span> 
+      <span class="varient" fxLayoutAlign="center center"> HOURS</span>
+    </div>
+    <div class="time">
+      <span id="minutes" class="runDiv"><span class="run">{{ minutesToDday }}</span>  </span>
+      <span class="varient" fxLayoutAlign="center center">MINUTES</span>
+    </div>
+    <div class="time">
+      <span id="seconds" class="runDiv"><span class="run"> {{ secondsToDday }}</span> </span>
+      <span class="varient" fxLayoutAlign="center center">SECONDS</span>
+    </div>
+  </div>
+</div>

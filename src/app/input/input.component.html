@@ -1,0 +1,26 @@
+<form [formGroup]="reactiveForm" (ngSubmit)="launch()" novalidate>
+  <div fxLayout="row" fxLayoutAlign="center center">
+    <mat-form-field class="example-full-width">
+      <input
+        matInput
+        placeholder="Launch Message"
+        value=""
+        formControlName="launchName"
+      />
+    </mat-form-field>
+
+    <mat-form-field>
+      <input
+        matInput
+        [matDatepicker]="picker"
+        placeholder="Choose Launch date"
+        formControlName="launchDate"
+      />
+      <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+  </div>
+  <div fxLayout="row" fxLayoutAlign="center center">
+    <button mat-raised-button color="primary" type="submit">Launch</button>
+  </div>
+</form>

@@ -1,0 +1,106 @@
+.backStyle {
+  height: calc(100vh - 98px);
+  background-image: linear-gradient(#1e1e28, #241c2b);
+}
+
+@media (max-width: 375Px) {
+  .footerImage {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 1200Px) {
+  .footerImage {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+  }
+}
+
+
+
+
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+  .footerImage {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+  }
+}
+
+/* For Tablet View */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .footerImage {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+  }
+}
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+  .footerImage {
+    position: absolute;
+    bottom: 0;
+    width: 200%;
+    overflow: hidden;
+  }
+}
+
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px) and (orientation: landscape) {
+  .footerImage {
+    position: absolute;
+    bottom: 0;
+    width: 200%;
+    overflow: hidden;
+  }
+}
+
+/* For Mobile Phones Portrait or Landscape View */
+@media screen and (max-device-width: 640px) {
+  .footerImage {
+    position: absolute;
+    bottom: 0;
+    width: 200%;
+    overflow: hidden;
+    ;
+  }
+}
+
+/* For iPhone 4 Portrait or Landscape View */
+@media screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+  .footerImage {
+    position: absolute;
+    bottom: 0;
+    width: 300%;
+    overflow: hidden;
+  }
+}
+
+/* For iPhone 5 Portrait or Landscape View */
+@media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+  .footerImage {
+    position: absolute;
+    bottom: 0;
+    width: 300%;
+    overflow: hidden;
+  }
+}
+
+/* For iPhone 6 and 6 plus Portrait or Landscape View */
+@media (min-device-height: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3) {
+  .footerImage {
+    position: absolute;
+    bottom: 0;
+    width: 300%;
+    overflow: hidden;
+  }
+}
