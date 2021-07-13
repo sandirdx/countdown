@@ -32,3 +32,25 @@
     filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(318deg) brightness(104%) contrast(97%);
   }
   
+
+  footer {
+    background: url(../../assets/images/pattern-hills.svg);
+    position: fixed;
+    bottom: 0px;
+    z-index: 100;
+    width: 100vw;
+    height: 150px;
+ }
+  footer .socialNetworks {
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+ }
+  footer .socialNetworks i {
+    margin: 20px;
+    cursor: pointer;
+    color: #5c5a72;
+ }
+  
