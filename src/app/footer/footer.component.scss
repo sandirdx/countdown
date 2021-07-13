@@ -47,6 +47,7 @@ footer {
   z-index: 100;
   width: 100vw;
   height: 158px;
+  background-size: 100%;
 }
 
 footer .socialNetworks {
@@ -70,8 +71,9 @@ footer .socialNetworks i {
     position: fixed;
     bottom: 0px;
     z-index: 100;
-    width: 107vw;
+    width: 100vw;
     height: 166px;
+    background-size: 100%;
   }
 }
 
@@ -98,7 +100,7 @@ footer .socialNetworks i {
     position: fixed;
     bottom: 0px;
     z-index: 100;
-    width: 115vw;
+    width: 100vw;
     height: 166px;
   }
 }
