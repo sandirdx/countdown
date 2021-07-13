@@ -63,7 +63,8 @@ footer .socialNetworks i {
   color: #5c5a72;
 }
 
-@media screen and (min-width: 200px) {
+
+@media screen and (min-width: 200px)and (min-width: 700px) {
   footer {
     background: url(../../assets/images/pattern-hills.svg);
     position: fixed;
@@ -74,20 +75,23 @@ footer .socialNetworks i {
   }
 }
 
-
-@media screen and (min-width: 300px) {
+@media screen and (max-width: 620px){
   footer {
     background: url(../../assets/images/pattern-hills.svg);
     position: fixed;
     bottom: 0px;
     z-index: 100;
-    width: 115vw;
+    width: 100vw;
     height: 166px;
   }
 }
 
+/* iPhone 5 Retina regardless of IOS version */
 @media (device-height : 568px) and (device-width : 320px) and (-webkit-min-device-pixel-ratio: 2)
+
+/* and (orientation : todo: you can add orientation or delete this comment)*/
   {
+
   /*IPhone 5 only CSS here*/
   footer {
     background: url(../../assets/images/pattern-hills.svg);
