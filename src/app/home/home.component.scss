@@ -2,3 +2,19 @@
   height: calc(100vh - 98px);
 background-image: linear-gradient(#1e1e28, #241c2b);
 }
+
+@media screen and (max-width: 200px){
+  .backStyle{
+    height: calc(100vh - 83px);
+  background-image: linear-gradient(#1e1e28, #241c2b);
+  width: 106%;
+  }
+}
+
+@media screen and (max-width: 620px){
+  .backStyle{
+    height: calc(100vh - 83px);
+  background-image: linear-gradient(#1e1e28, #241c2b);
+  width: 106%;
+  }
+}

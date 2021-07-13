@@ -1,12 +1,13 @@
 .toUpper {
   text-transform: uppercase;
   color: white;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 
 .mainStyle {
     text-align: center;
+    margin-top: 60px;
   }
   .mainStyle .timeBlock {
     display: flex;
@@ -14,6 +15,7 @@
     justify-content: space-evenly;
     width: 600px;
     margin: 0 auto;
+    margin-top: 100px;
   }
   .mainStyle .timeBlock div.runDiv {
     background-image: -webkit-linear-gradient(90deg, #5a5665 50%, #574765 50%);
@@ -38,9 +40,10 @@
   }
   
   
-  @media only screen and (max-width: 620px) {
+  @media screen and (max-width: 620px){
     .mainStyle .timeBlock {
       width: 100%;
+      margin-top: 60px;
    }
     .mainStyle .timeBlock div.runDiv {
       width: 65px;
@@ -53,4 +56,41 @@
       letter-spacing: 2px;
    }
   }
+
+  @media screen and (max-width: 200px){
+    .mainStyle .timeBlock {
+      width: 100%;
+      margin-top: 60px;
+   }
+    .mainStyle .timeBlock div.runDiv {
+      width: 45px;
+      height: 40px;
+      font-size: 15px;
+      box-shadow: 0px 5px 0px #1a1a24;
+   }
+    .mainStyle .timeBlock div.varient {
+      font-size: 5px;
+      letter-spacing: 2px;
+   }
+  }
+
+  @media (device-height : 568px) and (device-width : 320px) and (-webkit-min-device-pixel-ratio: 2)
+  {
+  /*IPhone 5 only CSS here*/
+  .mainStyle .timeBlock {
+    width: 90%;
+    margin-top: 60px;
+ }
+  .mainStyle .timeBlock div.runDiv {
+    width: 45px;
+    height: 40px;
+    font-size: 15px;
+    box-shadow: 0px 5px 0px #1a1a24;
+ }
+  .mainStyle .timeBlock div.varient {
+    font-size: 5px;
+    letter-spacing: 2px;
+ }
+}
+
   
